@@ -1,2 +1,3 @@
 # ChatServer
 基于muduo网络库开发的分步式集群服务器，可以工作在nginx负载均衡模式下的使用redis实现消息队列的集群服务器。
+编译时在build中cmake ..,随后make在bin目录下生成可执行文件，注意需要配置负载均衡以及修改redis服务器地址。
